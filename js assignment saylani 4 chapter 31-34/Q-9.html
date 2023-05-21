@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var firstRamadan = new Date("May 6, 2019").getTime();
+        var today = new Date().getTime();
+        var daysPast = (today - firstRamadan) / (1000 * 60 * 60 * 24);
+        document.write(Math.floor(daysPast) + " days have passed since 1st Ramadan, 2019");
+    </script>
+</body>
+
+</html>

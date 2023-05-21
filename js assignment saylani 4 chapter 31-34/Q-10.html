@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var msToday = new Date().getTime();
+        var ms2015 = new Date("January 1, 2015").getTime();
+        var seconds = (msToday - ms2015) / 1000;
+        document.write("On reference date " + new Date() + ",<br/>" + Math.floor(seconds) +
+            " seconds had passed since beginning of 2015");
+    </script>
+</body>
+
+</html>
